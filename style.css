@@ -1,0 +1,429 @@
+ /* all used color in project  */
+ :root {
+        --primary : #094B72 ;
+       --Secondary : #C3E8F1;
+       --Light-Blue : #F2F7FF;
+       --Body-text : #4f4f4f;
+       --Dark-Gray: #151617 ;
+       --White: #FCFCFC;
+ }
+ body {
+      background-color: var(--White);
+ }
+ /* <!-- ======= Header ======= --> */
+ .navbar a {
+   text-transform: uppercase;
+   font-size: 12px;
+   font-family:  'Plus Jakarta Sans', sans-serif ;
+   color: var(--Dark-Gray);
+ }
+ #search-icon{
+   font-size: 22px;
+ }
+ /* <!-- End Header --> */
+
+/* <!-- ======= Hero ======= --> */
+    /* -- background part  --  */
+#hero{
+   background-image: url(hero-background.png) ;
+   background-repeat: no-repeat;
+   background-position: right;
+   background-position-x: 101%;
+   background-position-y:34px ;
+}
+           
+ /* -- first part  --  */
+#new-line{
+   background-color: var(--Secondary);
+   width: 434px ;
+   font-size: 14px;
+   color: var(--primary);
+   font-family: 'Plus Jakarta Sans', sans-serif;
+
+}
+#btn-new{
+   background-color: var(--primary);
+   font-size: 14px;
+   font-family: 'Plus Jakarta Sans', sans-serif;
+   color: var(--White);
+}
+    /* -- second part --  */
+    #hero-header {
+      font-size: 69px;
+      font-family: 'Plus Jakarta Sans', sans-serif;
+      color: var(--primary);
+      width: 621px;
+    }
+
+    /* -- third part  --  */
+    #paragraph-1{
+      font-size: 28px;
+      color:var(--Body-text);
+      font-family: 'Plus Jakarta Sans', sans-serif;
+      width: 440px;
+    }
+        /* -- forth part  --  */
+        #btn-gstarted{
+         width: 190px;
+         height:80px ;
+         font-size: 16px;
+         font-family: 'Plus Jakarta Sans', sans-serif;
+         background-color: var(--primary);
+         color: var(--White);
+         
+        }
+               /* -- Media Query  --  */
+
+    @media screen and (max-width: 992px ) {
+      #hero{
+         text-align: center;
+      }
+      
+      #hero-header {
+        font-size: 36px;
+        width: 350px; 
+        text-align: center;
+ 
+      }
+      #new-line{
+         width: 100%;
+         font-size: 12px;
+         width: 350px;
+         margin: 0;
+         text-align: center;
+
+      }
+      #btn-new{
+         font-size: 12px;
+      }
+      #paragraph-1{
+         text-align: center;
+         font-size: 16px;
+         width: 300px;
+         margin: auto;
+         
+      }
+      #btn-gstarted{
+         font-size: 12px;
+         width: 100px;
+         height: 50px;
+         text-align: center;
+         margin: auto;
+      }
+      #img{
+         width: 100%;
+      }
+      
+    }
+     /* <!-- End hero --> */
+
+/* <!-- ======= Services Section ======= --> */
+        /* -- full section  --  */
+
+.services-section{
+   background-color: var(--Light-Blue);
+}
+        /* -- header part  --  */
+
+    #why-header{
+      font-size: 48px;
+      font-family:'Plus Jakarta Sans', sans-serif ;
+      color: var(--Dark-Gray);
+      width: 400px;
+      
+    }
+            /* -- paragraph 2  part  --  */
+
+    #paragraph-2{
+      font-size: 20px;
+      font-family:'Plus Jakarta Sans', sans-serif ;
+      color: var(--Body-text);
+      width: 345px;
+    }
+        /* --  cards part  --  */
+   .card {
+         width: 256px;
+         height: 253px;
+        }
+    .card img {
+      height: 37px;
+      width: 37px;
+    }    
+  .card-title{
+   font-size: 22px;
+   color: var(--Dark-Gray);
+   font-family:'Plus Jakarta Sans', sans-serif ;
+
+  }  
+.card-text {
+   font-size: 14px;
+   color: var(--Body-text);
+   font-family:'Plus Jakarta Sans', sans-serif ;
+
+}
+/* -- Media Query  --  */
+
+@media screen and (max-width: 992px ) {
+   .services-section{
+      padding-right: 40px;
+       }
+
+   #paragraph-2{
+             font-size: 14px;
+             margin: auto;
+             width: 100%;
+          }     
+   #why-header{
+      font-size: 28px;
+      width: 100%;
+   }
+   .card{
+      width: 100%;
+   }
+      } 
+    
+           /* <!-- End services --> */
+
+           /* <!-- ======= numbers and records Section ======= --> */
+
+                   /* --  full section  --  */
+.numbers-section{
+   background-image: url(bg-pattern.png);
+   background-size: cover;
+  
+}
+
+                    /* --  headers part  --  */
+#numbers-header{
+   font-size: 48px;
+   font-family:'Plus Jakarta Sans', sans-serif ;
+   color: var(--White);
+
+}
+#second-header{
+   font-size: 18px;
+   font-family:'Plus Jakarta Sans', sans-serif ;
+   color: var(--White);
+
+}
+                   /* --  numbers part  --  */
+
+#numbers{
+   font-size: 48px;
+   font-family:'Plus Jakarta Sans', sans-serif ;
+   color: var(--White);
+}
+#label{
+   font-size: 18px;
+   font-family:'Plus Jakarta Sans', sans-serif ;
+   color: var(--White);
+}
+.vr {
+   height: 100px;
+   margin: auto;
+   color: var(--White);
+}
+/* -- Media Query  --  */
+
+@media screen and (max-width: 992px ) {
+   .vr{
+    display: none;
+   }
+   #numbers-header{
+      font-size: 32px;
+   }
+   #second-header{
+      font-size: 12px;
+   }
+   #numbers{
+      font-size: 36px;
+   }
+   #label{
+      font-size: 12px;
+   }
+      }  
+
+                  /* <!-- End numbers and records --> */
+
+   /* <!-- ======= testimonials Section ======= --> */
+           /* -- full section  --  */
+.testimonials-section{
+   background-color: var(--Light-Blue);
+}
+
+                      /* --  header part  --  */
+
+    #testimonials-header{
+      font-size: 48px ;
+      color: var(--Dark-Gray);
+      font-family:'Plus Jakarta Sans', sans-serif ;
+
+    }
+                      /* --  boxs part  --  */
+    #box{
+      background-color: var(--White);
+      width: 470px;
+      height: 180px;
+      
+    }                  
+   #box-header{
+      font-size: 18px;
+      color: var(--Dark-Gray);
+      font-family:'Plus Jakarta Sans', sans-serif ;
+   }
+
+   #box-paragraph{
+      font-size: 14px;
+      color: var(--Body-text);
+      font-family:'Plus Jakarta Sans', sans-serif ;
+      
+   
+   }
+                         /* --  avatar part  --  */
+    #job-header{
+      font-size: 18px;
+      font-family:'Plus Jakarta Sans', sans-serif ;
+      color: var(--Dark-Gray);
+    }                     
+   #img-caption{
+      font-size: 14px;
+      font-family:'Plus Jakarta Sans', sans-serif ;
+      color: var(--Body-text);
+   }     
+   /* --   Media Query    --  */
+   @media screen and (max-width: 992px ) {
+      #box{
+         width: 100%;
+      }
+     #box-paragraph{
+      font-size: 12px;
+     }
+      }
+                          
+
+                  /* <!-- End numbers and records --> */
+   /* <!-- ======= contact Section ======= --> */
+                         /* --  avatar part  --  */
+ .contact-section{
+   background-color: var(--White);
+ }
+                          /* --  first part  --  */
+    #header-q{
+      font-size: 48px;
+      font-family:'Plus Jakarta Sans', sans-serif ;
+     color: var(--Dark-Gray);
+    }   
+    #paragraph-3{
+      font-size: 24px;
+      font-family:'Plus Jakarta Sans', sans-serif ;
+      color: var(--Body-text);
+      width: 780px;
+      letter-spacing: .5px;
+    } 
+    #call-btn{
+      width: 219px;
+      height: 65px;
+      background-color: var(--primary);
+      color: var(--White);
+      font-family:'Plus Jakarta Sans', sans-serif ;
+      font-size: 22px;
+    }     
+                              /* --  image part  --  */
+    .contact-img{
+      width: 300px;
+      height: 295px;
+      
+    }                          
+        /* -- Media Query  --  */
+
+@media screen and (max-width: 992px ) {
+  
+   .contact-img{
+      width: 100%;
+   }
+   #header-q{
+      font-size: 24px;
+   }
+   #paragraph-3{
+      font-size: 14px;
+      width: 280px;
+   }
+   #call-btn{
+      width: 160px;
+      margin-left: 25%;
+   }
+      }  
+     
+                  /* <!-- End contact --> */
+   /* <!-- ======= footer Section ======= --> */
+           /* -- full section  --  */
+.footer-section{
+    background-color: var(--primary);
+    color: var(--White);
+
+    }
+               /* -- list part  --  */
+#list-header{
+   font-size: 20px;
+   font-family:'Plus Jakarta Sans', sans-serif ;
+}   
+#list-body{
+   font-size: 16px;
+   font-family:'Plus Jakarta Sans', sans-serif ;
+
+}  
+               /* -- footer line  --  */
+ #f-line{
+   font-size: 14px;
+   font-family:'Plus Jakarta Sans', sans-serif ;
+
+ }  
+ #icons{
+   font-size: 18px;
+ } 
+     /* -- Media Query  --  */
+
+@media screen and (max-width: 992px ) {
+  
+   #list-header{
+      font-size: 18px;
+   }
+   #list-body{
+      font-size: 12px;
+   }
+   .f-row{
+      flex-direction: column;
+   }
+   #f-line{
+      font-size: 12px;
+      padding-left: 90px;
+      padding-bottom: 10px;
+    
+   }
+   #icons{
+      font-size: 12px;
+      padding-right: 90px;
+      padding-bottom: 10px;
+   
+   
+   }
+   #footer-img{
+      margin: auto;
+      display: flex;
+   }
+      } 
+      /* ====================================== END =====================================    */
+ 
+
+       
+
+
+
+
+
+
+
+
+ 
+ 
+ 
